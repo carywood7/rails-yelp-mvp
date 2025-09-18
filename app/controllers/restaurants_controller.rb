@@ -6,6 +6,7 @@ class RestaurantsController < ApplicationController
   end
 
   def show
+    # @restaurant set by before_action
   end
 
   def new
